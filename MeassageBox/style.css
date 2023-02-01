@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+}
+
+body {
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 35%;
+  gap: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#inputmessage {
+  padding: 0.5rem 0px;
+
+  border-radius: 4px;
+  border: 1px solid blueviolet;
+}
+
+#submit {
+  padding: 0.4rem;
+  border-radius: 12px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+.warning {
+  display: none;
+  color: red;
+  border: 1px solid red;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.warning.show {
+  display: block;
+}
+
+.warning.show.success {
+    display: block;
+    color: green;
+    border: 1px dashed green;
+  }
+  
+
+.send_title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Itim", cursive;
+}
+
+.message {
+  font-weight: 600;
+  font-size: 20px;
+  color: blueviolet;
+  font-family: "Itim", cursive;
+}
